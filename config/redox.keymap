@@ -26,7 +26,7 @@
    &kp TAB   &kp Q    &kp W    &kp E  &kp R    &kp T  &kp F2                       &kp F11   &kp Y     &kp U  &kp I     &kp O    &kp P    &kp EQUAL
    &kp ESC   &kp A    &kp S    &kp D  &kp F    &kp G  &kp LBKT                     &kp RBKT  &kp H     &kp J  &kp K     &kp L    &kp SEMI &kp SQT
    &kp LSHFT &kp Z    &kp X    &kp C  &kp V    &kp B  &kp FSLH  &kp PG_DN &kp HOME &kp BSLH  &kp N     &kp M  &kp COMMA &kp DOT  &kp FSLH &mt RSHFT RET
-   &kp GRAVE &kp KP_MINUS &kp LCTRL &kp LALT     &kp LGUI    &kp BSPC     &kp DEL &kp RET  &kp SPACE      &kp ALT      &kp LEFT  &kp RIGHT &kp UP   &kp DOWN
+   &kp GRAVE &kp KP_MINUS &kp LCTRL &kp LALT     &kp LGUI    &kp BSPC     &kp DEL &kp RET  &kp SPACE      &kp RALT      &kp LEFT  &kp RIGHT &kp UP   &kp DOWN
             >;
 
         };
