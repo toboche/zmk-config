@@ -17,13 +17,13 @@
         default_layer {
 // --------------------------------------------------------------------------------------------------------------------------------
 // | LOWER |  1  |  2  |   3   |  4  |  5  |                   ---                |  6    |  7    |  8    |  9   | 0  |    F12    |
-// | TAB   |  Q  |  W  |   E   |  R  |  T  |   F2  |           ---        |  F11  |  Y    |  U    |  I    |  O   | P  |     =     |
+// | TAB   |  Q  |  W  |   E   |  R  |  T  | UPPER |           ---        | UPPER |  Y    |  U    |  I    |  O   | P  |     =     |
 // | ESC   |  A  |  S  |   D   |  F  |  G  |   [   |           ---        |  ]    |  H    |  J    |  K    |  L   | ;  |     '     |
 // | SHIFT |  Z  |  X  |   C   |  V  |  B  |   /   | PG_DOWN | --- | HOME | \     |  N    |  M    |  ,    |  .   | /  | SHFT(RET) |
 // | `     |  -  | CTRL| ALT   |    GUI    | BKSP  | DEL     | --- | RET  | SPACE |     ALT       | LEFT  | RIGHT | UP |   DOWN   |
             bindings = <
    &mo 3     &kp N1   &kp N2   &kp N3 &kp N4   &kp N5                                        &kp N6    &kp N7 &kp N8    &kp N9   &kp N0   &kp F12
-   &kp TAB   &kp Q    &kp W    &kp E  &kp R    &kp T  &kp F2                       &kp N1   &kp Y     &kp U  &kp I     &kp O    &kp P    &kp EQUAL
+   &kp TAB   &kp Q    &kp W    &kp E  &kp R    &kp T  &mo 1                        &mo 1     &kp Y     &kp U  &kp I     &kp O    &kp P    &kp EQUAL
    &kp ESC   &kp A    &kp S    &kp D  &kp F    &kp G  &kp LBKT                     &kp RBKT  &kp H     &kp J  &kp K     &kp L    &kp SEMI &kp SQT
    &kp LSHFT &kp Z    &kp X    &kp C  &kp V    &kp B  &kp FSLH  &kp PG_DN &kp BSLH &kp HOME  &kp N     &kp M  &kp COMMA &kp DOT  &kp FSLH &mt RSHFT RET
    &kp GRAVE &kp MINUS &kp LCTRL &kp LALT     &kp LGUI    &kp BSPC     &kp DEL &kp RET  &kp SPACE      &kp RALT      &kp LEFT  &kp RIGHT &kp UP   &kp DOWN
@@ -39,7 +39,7 @@
 // | SHIFT | ESC | GUI | COPY  | PASTE |     | PG_UP | PG_DOWN | --- | HOME | END |  \  |  1  |   2  |  3   | RET |  RET  |
 // | CRTL  | ALT | GUI | LOWER |     GUI     | LOWER | SPACE   | --- | DEL  |  0  |    RAISE  | LEFT | DOWN | UP  | RIGHT |
             bindings = <
-   &trans  &trans    &trans    &trans    &trans    &trans                                &trans          &trans    &trans    &trans    &trans      &trans
+   &trans  &kp F1    &kp F2    &kp F3    &kp F4    &kp F5                                &kp F6          &kp F7    &kp F8    &kp F9    &kp F10     &trans
    &kp ESC &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &trans               &trans &kp N6          &kp N7    &kp N8    &kp N9    &kp N0      &kp DEL
    &trans  &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT  &kp BSLH  &trans               &trans &kp KP_MULTIPLY &kp N4    &kp N5    &kp N6    &kp KP_PLUS &kp KP_MINUS
    &trans  &kp ESC   &kp LGUI  &kp LG(C) &kp LG(V) &kp GRAVE &trans &trans &trans &trans &kp KP_DIVIDE   &kp N1    &kp N2    &kp N3    &kp RET     &kp RET
